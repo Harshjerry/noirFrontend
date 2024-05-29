@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/static/js/main.f263b1aa.js",
+    "static/media/noirDESKTOP.mp4": "/static/media/noirDESKTOP.3ac9c18abd80ca9e49fd.mp4",
+    "static/media/noirMOB.mp4": "/static/media/noirMOB.30d24d98b939c0dc7c61.mp4",
+    "index.html": "/index.html",
+    "main.f263b1aa.js.map": "/static/js/main.f263b1aa.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f263b1aa.js"
+  ]
+}
