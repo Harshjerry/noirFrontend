@@ -3,6 +3,7 @@ import {mobile} from "../responsive";
 import {useState} from "react";
 import {login} from "./../redux/apiCall";
 import {useDispatch,useSelector} from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const Container = styled.div`
   width: 100vw;
@@ -70,6 +71,11 @@ const Error=styled.span`color:red;`;
 const Login = () => {
 const [username,setUsername]=useState("");
 const [password,setPassword]=useState("");
+const navigate = useNavigate();
+
+const handleCreate = () => {
+  navigate("/register");
+};
 
 const dispatch=useDispatch();
 const handleClick=(e)=>{
@@ -87,8 +93,8 @@ const {isFetching,error}=useSelector((state)=>state.user)
           <Input placeholder="password" type="password" onChange={(e)=>setPassword(e.target.value)}/>
           <Button onClick={handleClick} disabled={isFetching}>LOGIN</Button>
         {error&&<Error>Something Went Wrong</Error>}
-          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
-          <Link to="/register">CREATE A NEW ACCOUNT</Link>
+       
+          <Link onClick={handleCreate}>CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>
     </Container>
