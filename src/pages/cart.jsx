@@ -161,6 +161,7 @@ const Button = styled.button`
 
 const Warn = styled.span`
   color: red;
+  margin-bottom:40px;
 `;
 
 const Cart = () => {
