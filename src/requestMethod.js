@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://noirbackend.up.railway.app/api/";
+const BASE_URL = "https://noirbackend-8defa3c05eb7.herokuapp.com/api";
 
 // Check if localStorage item exists before accessing its properties
 const persistRoot = localStorage.getItem("persist:root");
