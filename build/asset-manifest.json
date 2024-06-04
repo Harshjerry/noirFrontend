@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.b3f72df4.js",
+    "main.js": "/static/js/main.2d6ce8cc.js",
     "static/media/noirDESKTOP.mp4": "/static/media/noirDESKTOP.3ac9c18abd80ca9e49fd.mp4",
     "static/media/noirMOB.mp4": "/static/media/noirMOB.30d24d98b939c0dc7c61.mp4",
     "index.html": "/index.html",
-    "main.b3f72df4.js.map": "/static/js/main.b3f72df4.js.map"
+    "main.2d6ce8cc.js.map": "/static/js/main.2d6ce8cc.js.map"
   },
   "entrypoints": [
-    "static/js/main.b3f72df4.js"
+    "static/js/main.2d6ce8cc.js"
   ]
 }
