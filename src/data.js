@@ -1,7 +1,7 @@
 export const  sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/HFmkT94/pexels-radomir-jordanovic-1644910-Photo-Room-png-Photo-Room.png",
+      img: "https://i.ibb.co/PTN31BG/pexels-godisable-jacob-892273-Photo-Room-png-Photo-Room.png",
       title: "Super Deal! Free Shipping On Orders Over $50",
 
       desc: "DON'T COMPROMISE ON STYLE! CHECK OUR NEW ARRIVALS.",
@@ -17,7 +17,7 @@ export const  sliderItems = [
     },
     {
       id: 3,
-      img: "https://i.ibb.co/NpFYYb9/pexels-godisable-jacob-892273-Photo-Room-png-Photo-Room.png",
+      img: "https://i.ibb.co/1f6yTHX/pic3.png",
       title: "SUMMER COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! CHECK OUR NEW ARRIVALS.",
 
